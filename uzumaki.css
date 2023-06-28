@@ -1,0 +1,171 @@
+:root{
+    --red-color: #BD1414;
+    --white-color: #ffffff;
+    --black-color: #080808;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 auto !important;
+    height: 60%;
+}
+
+.sushi1{
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 auto !important;  
+}
+
+.htitulo{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    color: #de1818;
+    -webkit-text-stroke: 0.8px var(--black-color);
+    font-size: 3em;
+    text-shadow: 1px 3px 4px #670b0b;
+}
+
+
+.hcontainer{
+    background-color: #08080856;
+    margin: 10%;
+}
+
+
+.bgcolor{
+    background-color: #080808;
+}
+
+.coltxt{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%!important ;
+    font-family: 'Neuton', serif;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+.colimg{
+    border-radius: 10px!important;
+}
+
+.rowtxtimg{
+    padding: 2em;
+}
+
+.spanred{
+    color: #BD1414;
+}
+
+.uzumaki{
+    font-family: 'Rock Salt', cursive;
+    color: #BD1414;
+}
+
+.fa-motorcycle, .bi-bag-heart{
+    color: #BD1414;
+}
+
+/*FOOTER*/
+
+footer{
+    min-height: 500px;
+    background-color:#000000;
+}
+
+.footer-texto{
+    color: #080808;
+}
+
+footer img{
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+}
+
+.footer-texto{
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: var(--font-family-Josefin);
+}
+
+.iconos-redes-sociales a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2 ease-in;
+
+}
+
+.iconos-redes-sociales i{
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2 ease-in;
+}
+
+.iconos-redes-sociales a:hover{
+    background-color: white;
+    border: 2px solid var(--blue-color-500);
+}
+
+.iconos-redes-sociales a:hover i{
+    color: black;
+}
+
+.derechos-de-autor{
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.custom-shape-divider-bottom-1687648525 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1687648525 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 71px;
+}
+
+.custom-shape-divider-bottom-1687648525 .shape-fill {
+    fill: #BD1414;
+}
+
+.footerbgcolor{
+    background-color: #BD1414;
+}
+
+.divisorcolor{
+    background-color: black;
+}
+
+/*FOOTER*/
