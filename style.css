@@ -1,0 +1,589 @@
+:root{
+    --blue-color-100: #cfe2ff;
+    --blue-color-200: #9ec5fe;
+    --blue-color-300: #6ea8fe;
+    --blue-color-400: #3d8bfd;
+    --blue-color-500: #0d6efd;
+    --blue-color-600: #0a58ca;
+    --blue-color-700: #084298;
+    --blue-color-800: #052c65;
+    --blue-color-900: #031633;
+
+    --indigo-color-100: #e0cffc;
+    --indigo-color-200: #c29ffa;
+    --indigo-color-300: #a370f7;
+    --indigo-color-400: #8540f5;
+    --indigo-color-500: #6610f2;
+    --indigo-color-600: #520dc2;
+    --indigo-color-700: #3d0a91;
+    --indigo-color-800: #290661;
+    --indigo-color-900: #140330;
+
+    --purple-color-100: #e2d9f3;
+    --purple-color-200: #c5b3e6;
+    --purple-color-300: #a98eda;
+    --purple-color-400: #8c68cd;
+    --purple-color-500: #6f42c1;
+    --purple-color-600: #59359a;
+    --purple-color-700: #432874;
+    --purple-color-800: #2c1a4d;
+    --purple-color-900: #160d27;
+
+    --pink-color-100: #f7d6e6;
+    --pink-color-200: #efadce;
+    --pink-color-300: #e685b5;
+    --pink-color-400: #de5c9d;
+    --pink-color-500: #d63384;
+    --pink-color-600: #ab296a;
+    --pink-color-700: #801f4f;
+    --pink-color-800: #561435;
+    --pink-color-900: #2b0a1a;
+
+    --red-color-100: #f8d7da;
+    --red-color-200: #f1aeb5;
+    --red-color-300: #ea868f;
+    --red-color-400: #e35d6a;
+    --red-color-500: #dc3545;
+    --red-color-600: #b02a37;
+    --red-color-700: #842029;
+    --red-color-800: #58151c;
+    --red-color-900: #2c0b0e;
+
+    --orange-color-100: #ffe5d0;
+    --orange-color-200: #fecba1;
+    --orange-color-300: #feb272;
+    --orange-color-400: #fd9843;
+    --orange-color-500: #fd7e14;
+    --orange-color-600: #ca6510;
+    --orange-color-700: #984c0c;
+    --orange-color-800: #653208;
+    --orange-color-900: #331904;
+
+    --yellow-color-100: #fff3cd;
+    --yellow-color-200: #ffe69c;
+    --yellow-color-300: #ffda6a;
+    --yellow-color-400: #ffcd39;
+    --yellow-color-500: #ffc107;
+    --yellow-color-600: #cc9a06;
+    --yellow-color-700: #997404;
+    --yellow-color-800: #664d03;
+    --yellow-color-900: #332701;
+
+    --green-color-100: #d1e7dd;
+    --green-color-200: #a3cfbb;
+    --green-color-300: #75b798;
+    --green-color-400: #479f76;
+    --green-color-500: #198754;
+    --green-color-600: #146c43;
+    --green-color-700: #0f5132;
+    --green-color-800: #0a3622;
+    --green-color-900: #051b11;
+
+    --teal-color-100: #d2f4ea;
+    --teal-color-200: #a6e9d5;
+    --teal-color-300: #79dfc1;
+    --teal-color-400: #4dd4ac;
+    --teal-color-500: #20c997;
+    --teal-color-600: #1aa179;
+    --teal-color-700: #13795b;
+    --teal-color-800: #0d503c;
+    --teal-color-900: #06281e;
+
+    --cyan-color-100: #cff4fc;
+    --cyan-color-200: #9eeaf9;
+    --cyan-color-300: #6edff6;
+    --cyan-color-400: #3dd5f3;
+    --cyan-color-500: #0dcaf0;
+    --cyan-color-600: #0aa2c0;
+    --cyan-color-700: #087990;
+    --cyan-color-800: #055160;
+    --cyan-color-900: #032830;
+
+    --gray-color-100: #f8f9fa;
+    --gray-color-200: #e9ecef;
+    --gray-color-300: #dee2e6;
+    --gray-color-400: #ced4da;
+    --gray-color-500: #adb5bd;
+    --gray-color-600: #6c757d;
+    --gray-color-700: #495057;
+    --gray-color-800: #343a40;
+    --gray-color-900: #212529;
+
+    --font-family-Josefin: 'Josefin Sans', sans-serif;
+}
+
+/*NAVBAR*/
+.navbar{
+    background-color: #000!important;
+    
+}
+
+.nav-link {
+    color: white;
+    font-family: var(--font-family-Josefin);
+    border-radius: 20px;
+ 
+}
+
+.nav-link:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+/*NAVBAR*/
+@media screen and (max-width: 767px){
+    .navbar-brand{
+        display: none;
+    }
+}
+
+
+/*ESTILO GENERAL*/
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccion-oscura{
+    background-color: #000000;
+    color: white;
+}
+
+.seccion-clara{
+    color: black;
+    background-color: white;
+}
+
+
+
+.texto-negro{
+    color: black;
+}
+
+.texto-blanco{
+    color: white;
+}
+
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.seccion-texto{
+    font-size: 1.2rem;
+}
+
+/*ESTILO GENERAL*/
+
+
+/*HERO*/
+.custom-shape-divider-top-1684256117 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1684256117 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 87px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1684256117 .shape-fill {
+    fill: #000000;
+}
+
+.section1{
+    background-color: black;
+}
+
+.hero{
+
+    min-height: 450px;
+    text-align: center;
+    padding: 3rem;
+}
+
+.hero-logo{
+    width: 17vw;
+    height: auto;
+    margin: 0 auto;
+}
+
+.hero h1{
+    font-size: 3.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.hero h2{
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+
+
+.hero-principal{
+    padding: 3rem;
+}
+/*HERO*/
+
+
+
+/*SOBRE MI*/
+.sobre-mi{
+    height: 500px;
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.sobre-mi .contenedor{
+    max-width: 600px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/*SOBRE MI*/
+
+/*EXP*/
+
+
+.experiencia .columna{
+    padding: 20px;
+    
+    border: 2px solid rgba(0, 0, 0, 0.425) ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+
+.experiencia .columna:hover{
+    color: white;
+    background-color: black;
+}
+
+.experiencia p{
+    font-family: var(--font-family-Josefin);
+}
+
+
+
+.experiencia{
+    padding: 40px 40px 60px 40px;
+    
+}
+
+.experiencia i {
+    font-size: 2.5rem;
+    color: #ffffff;
+    background-color: black;
+    padding: 8px 19px;
+    border-radius:50% ;
+    border: 2px solid white;
+
+}
+
+.experiencia-titulo{
+    font-size:25px ;
+    font-weight: bold;
+    margin: 10px 0;
+    font-family: var(--font-family-Josefin);
+}
+
+.badges-contenedor{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badge{
+    margin: 5px;
+}
+
+.badge1{
+    background-color: #e34c26;
+}
+
+.badge2{
+    background-color: #264de4;
+}
+
+.badge3{
+    background-color: var(--indigo-color-500);
+}
+
+.badge4{
+    background-color: black;
+}
+
+.badge5{
+    background-color: var(--blue-color-500);
+}
+
+.badge6{
+    background-color: var(--green-color-500);
+}
+
+/*EXP*/
+
+/*SEPARADOR*/
+.custom-shape-divider-bottom-1684266044 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1684266044 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 63px;
+}
+
+.custom-shape-divider-bottom-1684266044 .shape-fill {
+    fill: #000000;
+}
+/*SEPARADOR*/
+
+/*PROYECTOS*/
+
+.proyectos-recientes{
+    padding: 40px;
+    background-color: rgb(255, 254, 254);
+    color: white;
+}
+
+.proyectos-recientes img{
+   height: 100%;
+   width: 100%;
+   border-radius: 50px;
+   border: 2px solid white;
+   
+   display: block;
+   transition: all 0.2s ease;
+}
+
+.proyectos-contenedor{
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.overlay{
+    transition: all 0.2 ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+    
+}
+
+.proyectos-recientes h2, h3{
+    font-family: var(--font-family-Josefin);
+    font-size: 2rem;
+}
+
+.overlay .iconos-contenedor{
+    display: flex;
+}
+
+.overlay i{
+    color: black;
+    font-size: 60px;
+    margin: 10px;
+}
+
+
+.proyecto{
+    position: relative;
+}
+
+.proyecto:hover img{
+    opacity: 0.2;
+}
+
+.proyecto:hover .overlay{
+    opacity: 1;
+}
+
+
+.proyectos-recientes h2, h3{
+    color: black;
+}
+
+/*PROYECTOS*/
+
+/*CONTACTO*/
+
+.contacto .container{
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+
+}
+
+.contacto .rectangulo{
+    margin-top: -5rem;
+    background-color: var(--indigo-color-500);
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+}
+
+.contacto .row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.contacto .descripcion{
+    color: white;
+    font-size: 1.2rem;
+
+}
+
+.contacto button{
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover{
+    background-color: white;
+    color: black;
+}
+
+.contacto button:hover i{
+    color: black;
+}
+
+.contacto button i{
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2 ease-in-out;
+}
+
+
+
+/*CONTACTO*/
+
+
+/*FOOTER*/
+
+footer{
+    min-height: 500px;
+
+}
+
+.footer-logo{
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+.footer-texto{
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: var(--font-family-Josefin);
+}
+
+.iconos-redes-sociales a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2 ease-in;
+
+}
+
+.iconos-redes-sociales i{
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2 ease-in;
+}
+
+.iconos-redes-sociales a:hover{
+    background-color: white;
+    border: 2px solid var(--blue-color-500);
+}
+
+.iconos-redes-sociales a:hover i{
+    color: black;
+}
+
+.derechos-de-autor{
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+}
+
+
+
+.divider2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+
+}
+
+.divider2 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 96px;
+    transform: rotateY(180deg);
+}
+
+.divider2 .shape-fill {
+    fill: #ffffff;
+}
+
+
+
+/*FOOTER*/
+
+.proyectosp{
+    color: #000;
+}
