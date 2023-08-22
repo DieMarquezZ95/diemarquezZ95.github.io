@@ -389,6 +389,11 @@ section{
 
 /*PROYECTOS*/
 
+.figma-img{
+    width: 400px!important;
+    
+}
+
 .proyectos-recientes{
     padding: 40px;
     background-color: rgb(255, 254, 254);
