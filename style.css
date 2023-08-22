@@ -447,6 +447,10 @@ section{
     position: relative;
 }
 
+.proyecto1{
+    position: relative;
+}
+
 .proyecto:hover img{
     opacity: 0.2;
 }
