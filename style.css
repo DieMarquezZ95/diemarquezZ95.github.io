@@ -390,9 +390,12 @@ section{
 /*PROYECTOS*/
 
 .figmamusicapp{
-    width: 350px!important;
-    
+    width: 300px!important;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
 }
+
 
 .img1berserk{
     width: 550px;
